@@ -7,7 +7,7 @@ First you have to change some settings in `/etc/network/interfaces`. (My config 
 auto lo
 iface lo inet loopback
 
-# device: enp1s0
+# device: enp5s0
 auto enp5s0
 iface enp5s0 inet static
   address <Host IPv4>
